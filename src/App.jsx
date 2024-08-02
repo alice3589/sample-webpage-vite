@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <div>
-        {count} 回押しました
+        <p>こんにちは!</p>
       </div>
       <button>ボタン</button>
     </div>
