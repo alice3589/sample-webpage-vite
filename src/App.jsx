@@ -1,9 +1,15 @@
 import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [count, setCount] = useState(0);
+
   return (
     <div>
-      こんにちは！
+      <div>
+        {count} 回押しました
+      </div>
+      <button>ボタン</button>
     </div>
   );
 }
